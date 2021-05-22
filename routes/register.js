@@ -24,7 +24,7 @@ router.post('/', function(req, res, next) {
                 console.log('Successfully wrote file')
             }
         })
-        res.render('api', user);
+        res.render('search', user);
 });
 
 module.exports = router;

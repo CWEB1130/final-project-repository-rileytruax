@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style>
+            header {
+                width: 100%;
+                height: 220px;
+                background-color: darkslategrey;
+                display: block;
+            }
+            html, body {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background-color: lightgray;
+            }
+            #search {
+                position: absolute;
+                right: 30px;
+                top: 170px;
+            }
+            #title {
+                position: absolute;
+                left: 30px;
+                top: 140px;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+                text-shadow: 2px 2px black;
+            }
+            #listtitle {
+                text-decoration: underline;
+                position: absolute;
+                left: 60px;
+                top: 220px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">your favorite movies.</h1>
+            <form action="" id="search">
+                <input type="text" placeholder="Movie Name...">
+                <input type="submit" value="Search">
+            </form>
+        </header>
+        <h2 id="listtitle">Your List</h2>
+    </body>
+</html>
